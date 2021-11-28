@@ -6,7 +6,7 @@ var btn = document.querySelector("#submit-cm");
 
 
 var renderComment = async () => {
-    let uri = 'https://quora4.herokuapp.com/posts';
+    let uri = 'https://quora4.herokuapp.com:3000/posts';
 
     const res = await fetch(uri, {
         method: 'GET'
