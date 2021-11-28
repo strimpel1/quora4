@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "body": "sadasd assad as asd as das"
+    },
+    {
+      "title": "Nadav Ohayon",
+      "body": "asdadsa",
+      "id": 2
+    }
+  ]
+}
