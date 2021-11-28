@@ -27,7 +27,7 @@ const createPost = async(e) =>{
         headers: {'content-Type': 'application/json'}
     });
     document.querySelector("textarea").value = '';
-    window.location.replace('/index.html');
+    window.location.replace('/index.php');
 }
 
 
