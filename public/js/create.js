@@ -21,7 +21,7 @@ const createPost = async(e) =>{
         body: form.body.value,
     }
 
-    await fetch('https://quora4.herokuapp.com/posts', {
+    await fetch('https://quora4.herokuapp.com/db.json', {
         method: 'POST',
         body:JSON.stringify(doc),
         headers: {'content-Type': 'application/json'}
