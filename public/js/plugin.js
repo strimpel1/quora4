@@ -6,9 +6,11 @@ var btn = document.querySelector("#submit-cm");
 
 
 var renderComment = async () => {
-    let uri = 'https://quora4.herokuapp.com/db.json';
+    let uri = 'https://quora4.herokuapp.com/posts';
 
-    const res = await fetch(uri);
+    const res = await fetch(uri, {
+        method: 'GET'
+    });
     const comments = await res.json();
 
     let template = '';
