@@ -6,7 +6,7 @@ var btn = document.querySelector("#submit-cm");
 
 
 var renderComment = async () => {
-    let uri = 'http://localhost/posts';
+    let uri = 'http://localhost:3000/posts';
 
     const res = await fetch(uri);
     const comments = await res.json();
